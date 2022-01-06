@@ -1,3 +1,22 @@
-body{ color: #000000;}
-.logo{ color: #000000;}
-.logo-color{ color: #2196F3;}
+:root{
+    --bascground-color:#E5E5E5;
+    --second-bascground-color:#2F303A;
+    --second-text-color:#212121;
+    --primary-text-color:#757575;
+    --accent-color:#2196F3;
+}
+/*accent color #2196F3 */
+/*second text color #212121*/
+/*bascground color #E5E5E5 */
+/*second bascground color #2F303A */
+/*primary text color #757575 */
+
+body{
+    color:var(--primary-text-color);
+}
+h1,h2,h3{
+    color:var(--second-text-color);
+}
+.logo-color{
+color: var(--accent-color);
+}

@@ -13,10 +13,14 @@
 
 body{
     color:var(--primary-text-color);
+    font-family: Roboto sans-serif;
 }
 h1,h2,h3{
     color:var(--second-text-color);
 }
 .logo-color{
 color: var(--accent-color);
+}
+a.heder-logo{
+ color: #000000;
 }

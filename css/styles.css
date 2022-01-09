@@ -5,22 +5,53 @@
     --primary-text-color:#757575;
     --accent-color:#2196F3;
 }
-/*accent color #2196F3 */
-/*second text color #212121*/
-/*bascground color #E5E5E5 */
-/*second bascground color #2F303A */
-/*primary text color #757575 */
-
 body{
     color:var(--primary-text-color);
-    font-family: Roboto sans-serif;
+    font-family:Roboto,sans-serif;
+    letter-spacing: 0.03em;
+    
 }
 h1,h2,h3{
     color:var(--second-text-color);
+}
+.list{
+    list-style: none;
 }
 .logo-color{
 color: var(--accent-color);
 }
 a.heder-logo{
  color: #000000;
+ font-family:Raleway,sans-serif;
+font-size: 26px;
+line-height:1.2;
+text-decoration:none;
+letter-spacing: 0.03em;
 }
+.nav-list .link{ 
+    text-decoration:none;
+    color: #000000;   
+}
+.nav-list .link:hover,
+.nav-list .link:focus{
+    color: var(--accent-color);
+}
+.adres-list .link{
+    text-decoration:none;
+    color: #000000;
+}
+.adres-list .link:hover,
+.adres-list .link:focus{
+    color: var(--accent-color);
+}
+.title-baner{
+}
+.title-text{
+text-align:center;
+}
+.title-button{
+}
+.advantages{
+
+}
+

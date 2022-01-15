@@ -9,18 +9,18 @@ body{
     color:var(--primary-text-color);
     font-family:Roboto,sans-serif;
     letter-spacing: 0.03em;
-    
 }
-h1,h2,h3{
-    color:var(--second-text-color);
+.caption{
+    color: var(--second-text-color);
 }
 .list{
     list-style: none;
+    text-decoration: none;
 }
 .logo-color{
 color: var(--accent-color);
 }
-a.heder-logo{
+a.logo{
  color: #000000;
  font-family:Raleway,sans-serif;
 font-size: 26px;
@@ -28,12 +28,12 @@ line-height:1.2;
 text-decoration:none;
 letter-spacing: 0.03em;
 }
-.nav-list .link{ 
+.head-nav-list .link{ 
     text-decoration:none;
     color: #000000;   
 }
-.nav-list .link:hover,
-.nav-list .link:focus{
+.head-nav-list .link:hover,
+.head-nav-list .link:focus{
     color: var(--accent-color);
 }
 .adres-list .link{
@@ -45,13 +45,76 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .title-baner{
+    background-color: var(--second-bascground-color);
 }
 .title-text{
 text-align:center;
+color:#ffffff;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing:0.06em;
 }
 .title-button{
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    font-style:900;
+font-size: 16px;
+line-height:1.87;
+letter-spacing:0.06em;
 }
 .advantages{
-
+}
+.advantage-caption{
+font-style:900;
+font-size: 14px;
+line-height:1.14;
+}
+.advantage-text{
+    font-size: 14px;
+line-height: 1.71;
+}
+.advantages-list{
+}
+.advantage-item{
+}
+.work{
+}
+.work-caption{
+font-style:900;
+font-size: 36px;
+Line height: 1.16;
+}
+.work-list{
+}
+.work-item{
+}
+.comand{
+}
+.comand-caption {
+}
+.comand-list{
+}
+.comand-item{
+}
+.comand-caption{
+}
+.comand-text{
+}
+.footer{background-color: var(--second-bascground-color);
+}
+.footer-logo{
+    color: #ffffff;
+ font-family:Raleway,sans-serif;
+font-size: 26px;
+line-height:1.2;
+text-decoration:none;
+letter-spacing: 0.03em;
+}
+.footer-addres{
+    color: #ffffff;
+}
+.footer-link{
+   color:rgba(255, 255, 255, 0.6);
+   text-decoration:none; 
 }
 

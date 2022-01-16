@@ -20,9 +20,6 @@ body{
     list-style: none;
     text-decoration: none;
 }
-.current{
-    color:tomato;
-}
 .logo-color{
 color: var(--accent-color);
 }
@@ -35,15 +32,15 @@ text-decoration:none;
 letter-spacing: 0.03em;
 }
 .head-nav-list .link{ 
-    text-decoration:none;
+text-decoration:none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: #212121;  
 }
-.head-nav-list .link:active{
-    color: tomato;
+.head-nav-list .link.current{
+    color:var(--accent-color);
 }
 .head-nav-list .link:hover,
 .head-nav-list .link:focus{
@@ -119,6 +116,10 @@ letter-spacing: 0.03em;
 .comand-item{
 }
 .comand-caption{
+font-weight: 500;
+font-size: 16px;
+line-height:1.18;
+letter-spacing: 0.03em;
 }
 .comand-text{
 }
@@ -182,7 +183,13 @@ letter-spacing: 0.06em;
 .examples-item{
 }
 .examples-caption{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 .examples-text{
+font-size: 16px;
+line-height:1.87;
+letter-spacing: 0.03em;
 }
 

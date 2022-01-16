@@ -112,7 +112,8 @@ letter-spacing: 0.03em;
 }
 .comand-text{
 }
-.footer{background-color: var(--second-bascground-color);
+.footer{
+    background-color: var(--second-bascground-color);
 }
 .footer-logo{
     color: #ffffff;
@@ -123,22 +124,25 @@ text-decoration:none;
 letter-spacing: 0.03em;
 }
 .footer-addres{
-  /*  font-family: Roboto sans-serif;
+     font-family: Roboto sans-serif;
+     font-style: normal;
 font-size: 14px;
-line-height:1.71;
+line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0*/
+color:#ffffff;
+
 }
-.footer-item{   
-}
-.footer-link{
-font-family: Roboto sans-serif;;
-font-weight:400;
+ .footer-link{
+     text-decoration: none;
+     font-family: Roboto sans-serif;
+     font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
+      
+}
+.footer-item{  
 }
 .filter{
 }
@@ -146,14 +150,21 @@ text-decoration: none;
 }
 .filter-button{
     background-color: #F5F4FA;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
 }
 .filter-button:hover,
-.filter-button:active{
+.filter-button:focus{
     background-color: var(--accent-color);
+    color: #ffffff;
 }
 .examples{
 }
 .examples-caption{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 .examples-list{
 }
